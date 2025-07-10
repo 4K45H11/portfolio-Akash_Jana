@@ -1,0 +1,93 @@
+body {
+  background-color: #ffffff;
+  color: #0f5132;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-section {
+  height: 90vh;
+  /* background-color: #e9fbe5; */
+  padding: 2rem;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.home-buttons .btn {
+  margin: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-green {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.btn-green:hover {
+  background-color: #218838;
+}
+
+.btn-outline-green {
+  background-color: transparent;
+  color: #28a745;
+  border: 2px solid #28a745;
+}
+
+.btn-outline-green:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.project-card {
+  background-color: #f6fff4;
+  border: 1px solid #d4f4d0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 128, 0, 0.1);
+}
+
+.project-title {
+  font-weight: 600;
+}
+
+.connect-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.connect-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.skill-section {
+  background-color: #f6fff4;
+  border: 1px solid #d4f4d0;
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.skill-badge {
+  background-color: #28a74520;
+  color: #14532d;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #28a745;
+  color: white;
+}
