@@ -24,7 +24,7 @@ const Contact = () => {
     ))
     return (
         <div className='container py-5' id='connect'>
-            <h1 className='home-title'>Connect With Me</h1>
+            <h1 className='home-title mb-4'>Connect With Me</h1>
             <div className='row mt-4'>
                 {connectList}
             </div>

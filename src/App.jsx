@@ -9,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 
 import './App.css'
+import Footer from './pages/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Projects/>
       <Skill/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

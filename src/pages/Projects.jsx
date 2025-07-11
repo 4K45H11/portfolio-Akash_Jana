@@ -4,7 +4,7 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            img:`https://placehold.co/600x400?text=Hello+World`,
+            img:`https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg`,
             name: 'Clientify',
             desc: 'A MERN stack CRM app with lead and agent management, status-based filters, and a dashboard. Includes reports with bar and pie charts using Chart.js.',
             skills: ['React', 'Node.Js', 'MongoDB', 'Char.js'],
@@ -13,7 +13,7 @@ const Projects = () => {
         },
         {
             id: 2,
-            img:`https://placehold.co/600x400?text=Hello+World`,
+            img:`https://images.pexels.com/photos/1094544/pexels-photo-1094544.jpeg`,
             name: 'Basundhara Organic Farm',
             desc: 'A farm-based e-commerce web app with cart, filters, and search functionality. Includes address and order management, order history, and user-friendly checkout. Built using React, Node.js, and MongoDB.',
             skills: ['React', 'Node.Js', 'MongoDB'],

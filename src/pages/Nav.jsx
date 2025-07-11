@@ -1,14 +1,15 @@
+import { FaLaptopCode } from 'react-icons/fa'
 const Nav = () => {
     return (
         <nav className="navbar bg-light navbar-expand-lg sticky-top border-bottom border-dark-subtle" data-bs-theme="light">
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center" href="/">
-                    <span className="me-2 text-success">*</span>
+                    <span className="me-2 text-success"><FaLaptopCode/></span>
                     <span className="fw-bold">Akash Jana</span>
                 </a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
