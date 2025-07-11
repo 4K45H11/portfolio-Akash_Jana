@@ -15,7 +15,7 @@ const Contact = () => {
                         {url}
                     </a>
                 ) : (
-                    <a href={url} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-muted">
+                    <a style={{cursor:'pointer'}} href={url} target="_blank" rel="noopener noreferrer" className="text-decoration-none text-muted">
                         {url.replace('https://', '')}
                     </a>
                 )}
