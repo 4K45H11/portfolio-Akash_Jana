@@ -12,7 +12,7 @@ const Home = () => {
                             {/* <p className="fs-5 fw-normal">I'm currently improving my understanding of real-world development workflows, version control (Git/GitHub), and deployment platforms like Vercel and Render.</p> */}
                         <div className="home-buttons mt-4">
                             <a href="/Akash Jana Resume.pdf" className="btn btn-green" download>Download Resume</a>
-                            <a href="#contact" className="btn btn-outline-green">Contact</a>
+                            <a href="#connect" className="btn btn-outline-green">Contact</a>
                         </div>
                     </div>
                 </div>
